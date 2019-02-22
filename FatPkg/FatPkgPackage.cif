@@ -1,0 +1,15 @@
+<component>
+    name = "FatPkg"
+    category = eModule
+    LocalRoot = "FatPkg\"
+    RefName = "FatPkg.Fat"
+[INF]
+"EnhancedFatDxe\Fat.inf"
+[files]
+"FatPkg.chm"	
+"FatPkg.dec"	
+"License.txt"	
+"FatPkg.sdl"	
+[dependency]
+MdePkg >= "SS: AptioV;$/AptioV/Source/Interfaces/MdePkg;MdePkg_15"
+<endComponent>

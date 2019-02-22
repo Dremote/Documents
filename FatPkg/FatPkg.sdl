@@ -1,0 +1,16 @@
+TOKEN
+	Name  = "Fat_SUPPORT"
+	Value  = "1"
+	Help  = "Switch for Enabling FatPkg support in the project"
+	TokenType = Boolean
+	Master = Yes
+End
+
+INFComponent
+	Name  = "Fat"
+	File  = "EnhancedFatDxe\Fat.inf"
+	Package  = "FatPkg"
+	ModuleTypes  = "UEFI_DRIVER"
+	Token = "Fat_SUPPORT" "=" "1"
+End
+
